@@ -68,7 +68,7 @@
 }
 
 /*Digital clock*/
-.digitalClock h1{
+.digitalClock #time{
     text-align: center;
     padding: 20px;
     font-family: 'Orbitron', sans-serif;
@@ -77,6 +77,16 @@
     color: #000;
     margin-left: 37%;
     margin-right: 37%;
+    margin-bottom: -30px;
+}
+.digitalClock #date {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 35px;
+    color: #000;
+    
     margin-bottom: -30px;
 }
 
